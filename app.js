@@ -5,7 +5,7 @@ from an array (consider case sensitivity).*/
 let arrayOfFruits = ["Apple", "Mango", "apple", "orange", "Grapes",
                         "mango", "mango", "Avocado", "grapes"];
 
-// convert all array elements to lower case
+// convert all array elements to lower case with a help of .map() to iterate over the array  
 let newFruits = arrayOfFruits.map(function (element) {
     return element.toLowerCase();
 });
